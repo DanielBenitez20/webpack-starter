@@ -1,0 +1,35 @@
+{
+  "name": "webpack-inicial",
+  "version": "1.0.0",
+  "description": "este es un cascaron de un proyecto de wedpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --port=8080"
+  },
+  "author": "daniel benitez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/helper-compilation-targets": "^7.15.4",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.3.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.4.2",
+    "style-loader": "^3.3.0",
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
